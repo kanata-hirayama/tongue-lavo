@@ -17,7 +17,7 @@ const SYSTEM_PROMPT = `あなたは東洋医学の舌診の専門家です。舌
 
 export async function analyzeTongue(base64Image: string): Promise<DiagnosisResult> {
   const response = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-sonnet-4-5',
     max_tokens: 1000,
     system: SYSTEM_PROMPT,
     messages: [{

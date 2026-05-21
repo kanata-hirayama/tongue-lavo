@@ -63,7 +63,7 @@ export default function ScanPage() {
           <video ref={videoRef} autoPlay playsInline style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         ) : (
           <div style={{ textAlign: 'center', color: '#999' }}>
-            <div style={{ fontSize: 48, marginBottom: 8 }}>👅</div>
+            <div style={{ fontSize: 48, marginBottom: 8 }}>&#128065;</div>
             <p style={
 cat > ~/Desktop/tongue-lavo-v2/src/app/scan/page.tsx << 'EOF'
 'use client'
@@ -131,7 +131,7 @@ export default function ScanPage() {
           <video ref={videoRef} autoPlay playsInline style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         ) : (
           <div style={{ textAlign: 'center', color: '#999' }}>
-            <div style={{ fontSize: 48, marginBottom: 8 }}>👅</div>
+            <div style={{ fontSize: 48, marginBottom: 8 }}>&#128065;</div>
             <p style={{ fontSize: 14 }}>カメラを起動してください</p>
           </div>
         )}
